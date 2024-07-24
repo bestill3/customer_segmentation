@@ -1,0 +1,36 @@
+
+name: General Questions and Feedback
+description: File a question or provide general feedback.
+title: "[Question or Feedback]: "
+labels: ["general", "triage"]
+projects: ["tabluarepimdl"]
+assignees:
+  - ???
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the questions or feedback you have in this form!
+  - type: input
+    id: branch
+    attributes:
+      label: Branch Name
+      description: What is the branch(s) your issue is associated with?
+      placeholder: ex. main branch
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please describe your questions or feedback
+      placeholder: ex. main branch
+    validations:
+      required: true
+  - type: textarea
+    id: issue dependency
+    attributes:
+      label: Link questions or feedback
+      description: Please copy and paste any links of relevant questions or feedback reported in other issues. Details of the relevant questions or feedback are optional.
+      render: shell
+  
