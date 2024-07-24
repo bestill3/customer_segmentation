@@ -10,7 +10,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please fill out the questions or feedback you have in this form!
+        Please fill out the questions or feedback you have in this form.
   - type: input
     id: branch
     attributes:
@@ -23,7 +23,7 @@ body:
     id: description
     attributes:
       label: Description
-      description: Please describe your questions or feedback
+      description: Please describe your questions or feedback.
       placeholder: ex. main branch
     validations:
       required: true
@@ -31,6 +31,6 @@ body:
     id: issue_dependency
     attributes:
       label: Link questions or feedback
-      description: Please copy and paste any links of relevant questions or feedback reported in other issues. Details of the relevant questions or feedback are optional.
+      description: Please copy and paste any links of relevant questions or feedback reported in other issues if there are. Details of the relevant questions or feedback are optional.
       render: shell
   
