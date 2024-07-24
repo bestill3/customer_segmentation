@@ -24,7 +24,7 @@ body:
     attributes:
       label: Description
       description: Please describe your questions or feedback.
-      placeholder: ex. main branch
+      placeholder: 
     validations:
       required: true
   - type: textarea
