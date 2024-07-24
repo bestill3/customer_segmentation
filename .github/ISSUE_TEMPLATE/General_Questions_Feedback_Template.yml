@@ -28,7 +28,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: issue dependency
+    id: issue_dependency
     attributes:
       label: Link questions or feedback
       description: Please copy and paste any links of relevant questions or feedback reported in other issues. Details of the relevant questions or feedback are optional.
